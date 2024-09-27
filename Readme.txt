@@ -20,6 +20,9 @@ Antes de comenzar, asegúrate de tener lo siguiente en tu maquina:
 - [Maven](https://maven.apache.org/install.html) ya que en el proyecto se eligió maven y no gradle
 - [Git](https://git-scm.com/downloads)
 
+Nota: Para no instalar maven, ya que necesita de varias configuraciones, puedes optar por solo abrirlo en un IDE recomendación Intelij
+y lo inicias desde ahi sin necesidad de maven es mas sencillo y rapido
+
 
 
 ## Instalación 
@@ -28,6 +31,7 @@ Antes de comenzar, asegúrate de tener lo siguiente en tu maquina:
 
 git clone https://github.com/Jean0124/pruebaTecnica.git
 
+// este paso y el siguiente se pueden saltar si hiciste lo anterior del IDE
 2. Ve a la ruta del proyecto y abres el cmd y ejecuta este comando para construir el proyecto:
 
 mvn clean install
