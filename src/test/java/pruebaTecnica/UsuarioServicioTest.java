@@ -37,8 +37,8 @@ public class UsuarioServicioTest {
     public void getUsuariosExitoso() {
         // Se configura la respuesta
         Usuario[] usuariosArray = {
-                new Usuario(1L, "Leanne Graham", "Bret", "Sincere@april.biz"),
-                new Usuario(2L, "Ervin Howell", "Antonette", "Shanna@melissa.tv")
+                new Usuario(),
+                new Usuario()
         };
         ResponseEntity<Usuario[]> responseEntity = ResponseEntity.ok(usuariosArray);
 
